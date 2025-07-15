@@ -1,16 +1,88 @@
+.gitignore
+ignore.conf
+########################################
+# Unity - Ignorer les fichiers du moteur
+########################################
+
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+[Uu]serSettings/
+[Mm]emoryCaptures/
 [Ll]ogs/
+
+# Asset Store Tools
+**/[Aa]ssets/[Aa]sset[Ss]tore[Tt]ools/
+
+# PlasticSCM (ancien système de version intégré à Unity avant Git)
+[Aa]ssets/Plugins/PlasticSCM*
+
+# StreamingAssets / Addressables (ignorer les fichiers binaires lourds)
+**/[Aa]ssets/[Ss]treamingAssets/*/aa/
+**/[Aa]ssets/[Ss]treamingAssets/aa.meta
+**/[Aa]ssets/[Aa]ddressableAssetsData/*/*.bin*
+
+########################################
+# Plateformes et IDE
+########################################
+
+# Visual Studio
 .vs/
-.idea/
 *.csproj
 *.unityproj
 *.sln
+*.suo
 *.user
+*.userprefs
 *.pidb
+*.pidb.meta
 *.booproj
 *.svd
 *.pdb
+*.pdb.meta
+*.mdb
+*.mdb.meta
+*.opendb
+*.VC.db
+
+# VSCode
+.vscode/
+
+# JetBrains Rider / IntelliJ / Android Studio
+.idea/
+.gradle/
+
+# Autres outils
+.consulo/
+
+########################################
+# Fichiers utilisateurs ou générés automatiquement
+########################################
+
+*.tmp
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.private
+*.private.meta
+~UnityDirMonSyncFile~*
+
+# Patterns spécifiques (positif mais rares, et non gérés nativement par Git sauf via scripts)
+# ^*.private.[0-9]+$ 
+# ^*.private.[0-9]+.meta$  
+# (→ Git ignore ne gère pas les regex, juste les wildcards. Ces lignes ne seront pas interprétées normalement.)
+
+########################################
+# Système - ne pas versionner
+########################################
+
+.DS_Store
+.DS_Store*
+Thumbs.db
+Desktop.ini
+sysinfo.txt
+crashlytics-build.properties
+ExportedObj/
