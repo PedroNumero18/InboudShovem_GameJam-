@@ -1,8 +1,7 @@
 using System;
 using UnityEngine;
 
-public class Health : MonoBehaviour
-{
+public class Health : MonoBehaviour{
     private int maxHeart = 5;
     public int Heart;
     [SerializeField] private bool isNoHit;
@@ -31,5 +30,11 @@ public class Health : MonoBehaviour
     {
         Debug.Log("player is death");
         Destroy(gameObject);
+    }
+    void OnCollisionEnter2D(Collision2D collision){
+        if (collision.gameObject.CompareTag("Boss")){
+            BossStrenght bossStats = collision.gameObject.GetComponent<BossStrenght>();
+            DamageTaken(bossStats.damage);
+        }
     }
 }
