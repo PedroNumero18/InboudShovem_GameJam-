@@ -8,6 +8,7 @@ public class BossDoor : MonoBehaviour
     {
         bc2D = GetComponent<BoxCollider2D>();
         sr = GetComponent<SpriteRenderer>();
+        sr.enabled = false;
     }
     void OnTriggerExit2D(Collider2D collision)
     {

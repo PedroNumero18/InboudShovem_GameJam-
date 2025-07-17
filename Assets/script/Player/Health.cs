@@ -28,8 +28,11 @@ public class Health : MonoBehaviour{
     }
     private void playerDeath()
     {
+        SpriteRenderer playerBody = GetComponentInChildren<SpriteRenderer>();
+        PlayerMovement pm = GetComponent<PlayerMovement>();
+        pm.enabled = false;
+        playerBody.enabled = false;
         Debug.Log("player is death");
-        Destroy(gameObject);
     }
     void OnCollisionEnter2D(Collision2D collision){
         if (collision.gameObject.CompareTag("Boss")){

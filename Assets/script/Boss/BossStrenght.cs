@@ -17,7 +17,7 @@ public class BossStrenght : MonoBehaviour{
     private void attackPhase3(){
 
     }
-    void Update()
+    /*void Update()
     {
         while (Phase == phase.PHASE1)
         {
@@ -32,5 +32,5 @@ public class BossStrenght : MonoBehaviour{
         while (Phase == phase.PHASE3){
             attackPhase3();
         } 
-    }
+    }*/
 }

@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -87,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sp_bossspaghetti_phase1_tentacule3_0: -7749771863644044078
+      Sp_bossspaghetti_phase1_tentacule3_1: 2332154048920573439
+      Sp_bossspaghetti_phase1_tentacule3_2: 1242039648556868589
+      Sp_bossspaghetti_phase1_tentacule3_3: -3782461211879489985
+      Sp_bossspaghetti_phase1_tentacule3_4: 3032928678459982610
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,10 +128,10 @@ TextureImporter:
       name: Sp_bossspaghetti_phase1_tentacule2_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 80
-        width: 36
-        height: 24
+        x: 20
+        y: 81
+        width: 34
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: Sp_bossspaghetti_phase1_tentacule2_1
       rect:
         serializedVersion: 2
-        x: 83
-        y: 77
-        width: 36
-        height: 27
+        x: 84
+        y: 78
+        width: 34
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: Sp_bossspaghetti_phase1_tentacule2_2
       rect:
         serializedVersion: 2
-        x: 146
-        y: 75
-        width: 37
-        height: 29
+        x: 147
+        y: 76
+        width: 35
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: Sp_bossspaghetti_phase1_tentacule2_3
       rect:
         serializedVersion: 2
-        x: 17
-        y: 11
-        width: 38
-        height: 29
+        x: 18
+        y: 12
+        width: 36
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: Sp_bossspaghetti_phase1_tentacule2_4
       rect:
         serializedVersion: 2
-        x: 82
-        y: 11
-        width: 37
-        height: 29
+        x: 83
+        y: 12
+        width: 35
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b182011d4fbdb0448a8ff78adb0e6fb8
     internalID: 0
     vertices: []
     indices: 
@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sp_bossspaghetti_phase1_tentacule2_0: 3651549977063198405
+      Sp_bossspaghetti_phase1_tentacule2_1: 2117528915447325474
+      Sp_bossspaghetti_phase1_tentacule2_2: 2932698084146478525
+      Sp_bossspaghetti_phase1_tentacule2_3: 2056026883861479932
+      Sp_bossspaghetti_phase1_tentacule2_4: 1895892476615264751
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

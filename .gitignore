@@ -1,4 +1,6 @@
 .gitignore
+!*.unity
+!*.unity.meta
 ignore.conf
 ########################################
 # Unity - Ignorer les fichiers du moteur
